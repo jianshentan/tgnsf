@@ -8,7 +8,7 @@ body {
   min-height: 100vw;
   min-width: 100vw;
   overflow-x: hidden;
-  transition: background-color .3s ease-in-out;
+  transition: background-color .5s ease-in-out;
 }   
 .h1, .h2, .h3, .h4 {
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
@@ -30,6 +30,7 @@ body {
   position:fixed;
   width: 100vw;
   height: 100vh;
+  transition: color .5s ease-in-out;
 }
 .slide-center {
   position: absolute;
@@ -79,4 +80,3 @@ body {
   background-color: teal;
 }
 */
-

@@ -69,10 +69,19 @@ $(document).ready(function() {
       
       // get current slide based on scrollIndex
       var currSlide = $('.slide[data-position="'+newScrollIndex+'"]');
+      var currTitle = $('.title[data-position="'+newScrollIndex+'"]');
       
-      // set color of current slide
-      var bgColor = currSlide.data("bg-color");
-      $("body").css({ "background-color": bgColor });
+      // set background color
+      var slideBgColor = currSlide.data("bg-color");
+      $("body").css({ "background-color": slideBgColor });
+      
+      // set text color on slide
+      var slideColor = currSlide.data("color");
+      currSlide.css({ "color": slideColor });
+      
+      // set title color 
+      var titleColor = currTitle.data("color");
+      currTitle.css({ "color": titleColor });
     }
     
   }); 
