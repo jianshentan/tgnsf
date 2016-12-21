@@ -1,0 +1,82 @@
+/* --------------------------
+   -- PRESET ELEMENTS
+   -------------------------- */
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  min-height: 100vw;
+  min-width: 100vw;
+  overflow-x: hidden;
+  transition: background-color .3s ease-in-out;
+}   
+.h1, .h2, .h3, .h4 {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  margin: 0px !important;
+  font-weight: 300;
+}
+.title {
+  z-index: 100;
+}
+.slide {
+  z-index: 0;
+}
+.slides,
+.titles {
+  position: relative;
+}
+.slide,
+.title {
+  position:fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.slide-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: black;
+  width: 50px;
+  height: 50px;
+}
+.title-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  text-align: center;
+}
+
+.horizontal-right,
+.horizontal-left {
+  z-index: -1;
+}
+
+/*
+#one {
+  background-color: red;
+}
+#two {
+  background-color: yellow;
+}
+#three {
+  background-color: blue;
+}
+#four {
+  background-color: orange;
+}
+#five {
+  background-color: pink;
+}
+#six {
+  background-color: green;
+}
+#seven {
+  background-color: purple;
+}
+#eight {
+  background-color: teal;
+}
+*/
+
